@@ -25,7 +25,7 @@ Most partnership trackers show inputs and call them outcomes. This one doesn't.
 
 ```
 I am an IBM Partner Technical Specialist. I need you to write the "What's Working & What Isn't"
-and "↳ Evidence" tabs for my partner tracker.
+and "↳ Evidence" tabs for my client analytics tracker.
 
 Use the IBM VAR channel framework:
 - A partner is self-sufficient when their AEs qualify IBM opps without me, their engineers demo

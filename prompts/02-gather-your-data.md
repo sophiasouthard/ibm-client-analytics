@@ -17,7 +17,7 @@ Each produces a structured table you'll feed into the tracker-building prompt in
 ## 2A — Format Your Opportunity Pipeline
 
 ```
-I need to format my pipeline data for a partner tracker. Here is my raw opportunity data:
+I need to format my pipeline data for a client analytics tracker. Here is my raw opportunity data:
 
 [PASTE YOUR CSV/EXCEL DATA OR TYPE IT OUT AS A TABLE]
 
@@ -81,7 +81,7 @@ Format the output as a markdown table.
 ## 2C — Format Your Email Log
 
 ```
-I need to format my email log for a partner tracker. Here are the key email threads I want to log:
+I need to format my email log for a client analytics tracker. Here are the key email threads I want to log:
 
 [PASTE YOUR EMAIL THREAD SUMMARIES — date, subject, who it was with, what happened]
 

@@ -1,4 +1,4 @@
-# IBM Partner Tracker — Bob-Native Template
+# IBM Client Analytics — Bob-Native Template
 
 A step-by-step guide for IBM Partner Technical Specialists (PTSs) to build a living, evidence-backed
 partnership tracker for any IBM Business Partner (VAR/Sell partner).

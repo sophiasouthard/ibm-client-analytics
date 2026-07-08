@@ -21,7 +21,7 @@ Bob already knows the structure from this repo. Just provide your data.
 ## The Prompt
 
 ```
-I need you to build a partner tracker HTML file for my IBM Business Partner engagement.
+I need you to build a client analytics HTML file for my IBM Business Partner engagement.
 Use the structure and styling of the partner-tracker-template.html from this repo as your reference.
 
 Here is everything you need:
