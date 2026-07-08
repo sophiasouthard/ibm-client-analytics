@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "ibm-data-ai-docs": {
+      "command": "node",
+      "args": ["./mcp-servers/ibm-data-ai-docs/build/index.js"],
+      "disabled": false,
+      "alwaysAllow": [
+        "list_ibm_data_ai_products",
+        "get_ibm_case_studies",
+        "search_ibm_docs",
+        "recommend_ibm_products",
+        "get_product_overview",
+        "fetch_ibm_doc_page",
+        "fetch_ibm_case_study"
+      ]
+    }
+  }
+}

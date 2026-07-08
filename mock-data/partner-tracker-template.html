@@ -184,6 +184,10 @@ footer{text-align:center;font-size:12px;color:#57606a;padding:18px;border-top:1p
 
 <!-- ── PIPELINE ── -->
 <div class="panel p2">
+  <div style="background:#fff8e1;border:1px solid #f59e0b;border-radius:8px;padding:13px 16px;margin-bottom:18px;font-size:12px;line-height:1.7;">
+    <strong>&#128274; Placeholder data — replace with your own.</strong><br>
+    <strong>Where to get this:</strong> Export your active opportunities from <strong>Salesforce (or your CRM)</strong> — include opportunity name, account, product, stage, value, close date, owner, and a one-line status note. Then run <strong><code>prompts/02-gather-your-data.md → Step 2A</code></strong> in Bob to format and structure it. Paste the output into the <code>&lt;tbody&gt;</code> of the <code>#pip-table</code> table in this file, replacing the example rows below.
+  </div>
   <div class="mini-kpis">
     <div class="mini-kpi"><div class="v">[N]</div><div class="l">Active Deals</div></div>
     <div class="mini-kpi"><div class="v">[N]</div><div class="l">At Risk</div></div>
@@ -277,21 +281,30 @@ footer{text-align:center;font-size:12px;color:#57606a;padding:18px;border-top:1p
 
 <!-- ── GROWTH ── -->
 <div class="panel p8">
+  <div style="background:#fff8e1;border:1px solid #f59e0b;border-radius:8px;padding:13px 16px;margin-bottom:18px;font-size:12px;line-height:1.7;">
+    <strong>&#128274; Placeholder — replace with your own before/after story.</strong><br>
+    <strong>What this tab shows:</strong> A side-by-side comparison of where the partnership stood at the start of your engagement vs. where it stands today — pipeline totals, contacts engaged, demos run, certifications earned, and evidence of partner capability building. This is the "proof of progress" tab for your manager.<br><br>
+    <strong>Where to get this:</strong> Look at your <strong>earliest pipeline snapshot</strong> (your first Salesforce export or any archived tracker/report from when you started) plus your <strong>current pipeline</strong> and <strong>meeting log</strong>. After running Steps 2A–2D in Bob, ask: <em>"Write a Growth tab comparing my partnership at [start date] vs. today, using my pipeline data and meeting log."</em>
+  </div>
   <div class="summary">This tab shows how the partnership has evolved over time — comparing an earlier period to today across meetings, pipeline, and relationship depth.</div>
   <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:20px;">
     <div class="mgr-card">
-      <h3>Before (Period 1)</h3>
-      <p class="sm">[Describe where the partnership was at the start — pipeline total, contacts engaged, key activities run, gaps visible]</p>
+      <h3>Before (Period 1 — e.g. Month 1)</h3>
+      <p class="sm">[Describe where the partnership was at the start — pipeline total, contacts engaged, key activities run, gaps visible. Example: "2 active deals, $55K pipeline, 1 champion, limited IBM product knowledge across the sales team."]</p>
     </div>
     <div class="mgr-card">
-      <h3>Now (Period 2)</h3>
-      <p class="sm">[Describe where the partnership is today — pipeline total, contacts engaged, demos run, evidence of partner capability building]</p>
+      <h3>Now (Period 2 — e.g. Month 3–4)</h3>
+      <p class="sm">[Describe where the partnership is today — pipeline total, contacts engaged, demos run, evidence of partner capability building. Example: "14 active deals, $775K pipeline, 5 engineers in weekly enablement, 4 agents built in Orchestrate, 1 AE independently driving a $300K deal."]</p>
     </div>
   </div>
 </div>
 
 <!-- ── EFFICIENCY ── -->
 <div class="panel p7">
+  <div style="background:#fff8e1;border:1px solid #f59e0b;border-radius:8px;padding:13px 16px;margin-bottom:18px;font-size:12px;line-height:1.7;">
+    <strong>&#128274; Placeholder data — replace with your own.</strong><br>
+    <strong>Where to get this:</strong> Review your <strong>calendar for the last 90 days</strong> and estimate the % of your time spent on each activity type (demos, enablement, events, research, admin, etc.). Then look at your <strong>pipeline</strong> to see which activities produced registered opportunities and which didn't. After running Steps 2A–2B in Bob, ask: <em>"Write an Efficiency tab time-vs-revenue scorecard based on my meeting log and pipeline data."</em> The example rows below are illustrative only — replace them with your actuals.
+  </div>
   <div class="summary">Where your time is going vs. where the revenue is — and specific changes to close more deals.</div>
   <div class="stitle">Time vs. Revenue Scorecard</div>
   <div class="tw"><table>
@@ -319,11 +332,22 @@ footer{text-align:center;font-size:12px;color:#57606a;padding:18px;border-top:1p
 
 <!-- ── EVIDENCE ── -->
 <div class="panel p12">
-  <div class="summary">Run prompts/04-interpret-whats-working.md to generate the evidence tables for this tab.</div>
+  <div style="background:#fff8e1;border:1px solid #f59e0b;border-radius:8px;padding:13px 16px;margin-bottom:18px;font-size:12px;line-height:1.7;">
+    <strong>&#128274; Generated by Bob — run the prompt first.</strong><br>
+    Run <strong><code>prompts/04-interpret-whats-working.md</code></strong> in Bob (IBM VAR Channel Strategist mode) with your pipeline, meeting log, email log, usage data, and action items. Bob will generate two evidence tables for this tab:<br><br>
+    <strong>Table 1 — Evidence: What Is Working</strong> — Columns: Finding | Why It Counts | Specific Evidence (exact meeting dates, email thread subjects, pipeline dollar values, usage report figures)<br><br>
+    <strong>Table 2 — Evidence: What Is Not Working</strong> — Columns: Finding | Your Input (what you delivered) | What the Partner Did or Didn't Do | Specific Evidence<br><br>
+    <strong>Closing callout:</strong> A one-paragraph synthesis grounding every finding in the IBM VAR channel pattern — distinguishing your effort from your partner's follow-through, and recommending the minimum corrective action.
+  </div>
+  <div class="summary">Every finding in the "What's Working &amp; What Isn't" tab is backed by a specific data source — meeting log entries, email threads, pipeline rows, or usage report figures. Run prompts/04-interpret-whats-working.md to populate this tab.</div>
 </div>
 
 <!-- ── MEETING LOG ── -->
 <div class="panel p3">
+  <div style="background:#fff8e1;border:1px solid #f59e0b;border-radius:8px;padding:13px 16px;margin-bottom:18px;font-size:12px;line-height:1.7;">
+    <strong>&#128274; Placeholder data — replace with your own.</strong><br>
+    <strong>Where to get this:</strong> Export your calendar for the last 90 days (Google Calendar → CSV, or Outlook → Excel), or simply open your calendar and list the meetings. Focus on anything where something happened: a demo, an enablement session, a customer touch, a pipeline call, or an event. Then run <strong><code>prompts/02-gather-your-data.md → Step 2B</code></strong> in Bob to format them. Paste the output rows into the <code>#mtg-table tbody</code>, replacing the three example rows below.
+  </div>
   <div class="summary">Every significant meeting logged. Filter by topic or type to isolate enablement sessions, customer demos, pipeline calls, or events.</div>
   <div class="mini-kpis">
     <div class="mini-kpi"><div class="v">[N]</div><div class="l">Total Meetings</div></div>
@@ -386,6 +410,10 @@ footer{text-align:center;font-size:12px;color:#57606a;padding:18px;border-top:1p
 
 <!-- ── CUSTOMER MEETINGS ── -->
 <div class="panel p9">
+  <div style="background:#fff8e1;border:1px solid #f59e0b;border-radius:8px;padding:13px 16px;margin-bottom:18px;font-size:12px;line-height:1.7;">
+    <strong>&#128274; Placeholder data — replace with your own.</strong><br>
+    <strong>Where to get this:</strong> This is a filtered view of your Meeting Log — only meetings where a named end-user customer (not your partner's internal team) attended. Once you've populated the Meeting Log (Step 2B), ask Bob: <em>"From my meeting log, which meetings were customer-facing — i.e. included a named end-user customer or end-user event? Format them for the Customer Meetings tab."</em> Replace the two example rows below with the output.
+  </div>
   <div class="summary">Isolated view of customer-facing meetings — sessions where a named end-user customer attended. Use this to answer: how much of my time is customer-facing vs. partner-facing?</div>
   <div class="tw"><table>
     <thead><tr><th>Date</th><th>Meeting</th><th>Customer</th><th>Motion</th><th>Type</th><th>Commercial Read</th></tr></thead>
@@ -398,6 +426,10 @@ footer{text-align:center;font-size:12px;color:#57606a;padding:18px;border-top:1p
 
 <!-- ── EMAIL LOG ── -->
 <div class="panel p4">
+  <div style="background:#fff8e1;border:1px solid #f59e0b;border-radius:8px;padding:13px 16px;margin-bottom:18px;font-size:12px;line-height:1.7;">
+    <strong>&#128274; Placeholder data — replace with your own.</strong><br>
+    <strong>Where to get this:</strong> Go through your <strong>sent email for the last 90 days</strong> and identify threads where you delivered something meaningful: a research report, a demo invite, an architecture assessment, a product intro, or a deal registration thread. You don't need every email — just the ones where something was delivered or initiated. Then run <strong><code>prompts/02-gather-your-data.md → Step 2C</code></strong> in Bob to format them. Paste the output rows into the <code>#email-table tbody</code>, replacing the three example rows below.
+  </div>
   <div class="summary">Key email threads logged. Focus on threads where something was delivered or initiated — not routine scheduling.</div>
   <div class="mini-kpis">
     <div class="mini-kpi"><div class="v">[N]</div><div class="l">Threads Logged</div></div>
@@ -431,6 +463,10 @@ footer{text-align:center;font-size:12px;color:#57606a;padding:18px;border-top:1p
 
 <!-- ── CONTACTS ── -->
 <div class="panel p5">
+  <div style="background:#fff8e1;border:1px solid #f59e0b;border-radius:8px;padding:13px 16px;margin-bottom:18px;font-size:12px;line-height:1.7;">
+    <strong>&#128274; Placeholder data — replace with your own.</strong><br>
+    <strong>Where to get this:</strong> Pull your contact list from <strong>Salesforce contacts, LinkedIn, or your own notes</strong> — anyone at your Business Partner you've interacted with or plan to engage. Include: name, title, function, region, IBM product focus, engagement level (High / Med / Low), email, and a one-line note. Then run <strong><code>prompts/02-gather-your-data.md → Step 2D</code></strong> in Bob to format the contact cards. Replace the five example cards below with the output.
+  </div>
   <div class="cgrid">
     <div class="card">
       <div class="cn">Jane Smith</div>
@@ -477,6 +513,10 @@ footer{text-align:center;font-size:12px;color:#57606a;padding:18px;border-top:1p
 
 <!-- ── ACTION ITEMS ── -->
 <div class="panel p6">
+  <div style="background:#fff8e1;border:1px solid #f59e0b;border-radius:8px;padding:13px 16px;margin-bottom:18px;font-size:12px;line-height:1.7;">
+    <strong>&#128274; Placeholder data — replace with your own.</strong><br>
+    <strong>Where to get this:</strong> Review your open commitments — anything you told someone you'd do, any follow-up you owe, any deal that needs a next step. Good sources: your email drafts folder, your calendar notes, your CRM tasks, and the output of your pipeline review calls. After running Steps 2A–2C in Bob, ask: <em>"Based on my pipeline data, meeting log, and email log, what are my top open action items? Format them as a table with: contact/account, owner, action description, status, priority, and due date."</em> Replace the five example rows below. The <strong>Status column is a live dropdown</strong> — update it directly in the browser without editing the file.
+  </div>
   <div style="display:flex;gap:12px;margin-bottom:14px;flex-wrap:wrap;align-items:center;">
     <label style="font-size:12px;font-weight:600;color:#57606a;">Filter by Status:</label>
     <select id="ai-status" style="font-size:12px;padding:4px 8px;border:1px solid #e5e7eb;border-radius:4px;background:#fff;">

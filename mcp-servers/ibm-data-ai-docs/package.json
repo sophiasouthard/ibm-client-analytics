@@ -1,0 +1,22 @@
+{
+  "name": "ibm-data-ai-docs-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for IBM Data & AI product documentation — search, fetch, and explore ibm.com/docs across the full Data & AI portfolio. No API key required.",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js",
+    "dev": "node --watch build/index.js"
+  },
+  "bin": {
+    "ibm-data-ai-docs-mcp": "./build/index.js"
+  },
+  "files": ["build"],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}
