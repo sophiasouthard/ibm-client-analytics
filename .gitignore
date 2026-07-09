@@ -1,3 +1,6 @@
 mcp-servers/ibm-data-ai-docs/node_modules/
 mcp-servers/ibm-data-ai-docs/build/
+m365-mcp/node_modules/
+m365-mcp/build/
+m365-mcp/token.txt
 .DS_Store
